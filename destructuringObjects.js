@@ -1,4 +1,4 @@
-// object destructuing 
+// object destructuing
 
 const restaurtant = {
   name: "Classico Ita",
@@ -27,6 +27,10 @@ const restaurtant = {
   },
 };
 
+const { name, openingHours, categories } = restaurtant;
+console.log(name, openingHours, categories);
 
-const {name, openingHours, categories} = restaurtant;
-console.log(name,openingHours,categories);
+// we can use the spread operator 
+const newmaincourse = [...restaurtant.maincourse, "gnocci"];
+console.log(newmaincourse);
+

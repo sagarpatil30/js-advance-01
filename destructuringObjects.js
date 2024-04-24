@@ -34,3 +34,4 @@ console.log(name, openingHours, categories);
 const newmaincourse = [...restaurtant.maincourse, "gnocci"];
 console.log(newmaincourse);
 
+
